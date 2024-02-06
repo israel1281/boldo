@@ -12,13 +12,13 @@ const Navigation: FC = () => {
 
   return (
     <nav className={styles.navigation}>
-      <Link href="/product">
+      <Link href="/">
         <span className={`${styles.navLink} ${isActive('/product')}`}>Product</span>
       </Link>
-      <Link href="/about">
+      <Link href="/">
         <span className={`${styles.navLink} ${isActive('/about')}`}>Services</span>
       </Link>
-      <Link href="/contact">
+      <Link href="/">
         <span className={`${styles.navLink} ${isActive('/contact')}`}>About</span>
       </Link>
       <Link href="/">
