@@ -1,0 +1,101 @@
+.news_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 1030px;
+}
+
+.news_container h1 {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.news_content {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* Creates 3 columns with equal width */
+    column-gap: 60px;
+    row-gap: 20px;
+}
+
+.news {
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.news_info p:first-child {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #777777;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.news_info p > span:first-child {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2640;
+}
+
+.news_info p:nth-child(2) {
+    margin-top: 10px;
+    width: 300px;
+    height: 99px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+
+.news_info section {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.news_info section > span {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.load_more {
+    width: 219px;
+    height: 60px;
+    padding: 16px, 56px, 16px, 56px;
+    border-radius: 56px;
+    border: 3px solid #0A2640;
+    color: #0A2640;
+    margin: 100px auto 0px auto;
+    font-size: 20px;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s; /* Add transition */
+}
+
+.load_more:hover {
+    background-color: #0A2640; /* Change background color on hover */
+    color: #FFFFFF; /* Change text color on hover */
+}

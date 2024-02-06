@@ -1,0 +1,46 @@
+.header_container {
+    width: 100%;
+    color: #0A2640;
+    padding: 50px 110px 20px 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.scroll {
+    background-color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    gap: 3rem;
+}
+
+.navLink:hover {
+    transition: all 0.1s ease-in-out;
+    border-bottom: 3px solid #0A2640;
+    padding-bottom: 0.5rem 2.5rem;
+}
+
+.active {
+    font-weight: 700;
+    border: 3px solid #0A2640;
+    padding: 0.5rem 2.5rem;
+    border-radius: 2rem;
+    transition: background-color 0.3s, color 0.3s; /* Add transition */
+}
+
+.active:hover {
+    background-color: #0A2640; /* Change background color on hover */
+    color: #FFFFFF; /* Change text color on hover */
+}

@@ -1,0 +1,85 @@
+.footer_container {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.footer_top {
+    width: 100%;
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+}
+
+.footer_top nav {
+    display: flex;
+    align-items: center;
+    gap: 115px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    margin-left: 10%;
+}
+
+.footer_bottom {
+    width: 100%;
+    display: flex;
+    gap: 20%;
+}
+
+.bottom_left p {
+    width: 300px;
+    height: 84px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #777;
+    margin-bottom: 70px;
+}
+
+.reserve {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #777;
+}
+
+.bottom_nav {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  /* Creates 3 columns with equal width */
+    font-size: 20px;
+    column-gap: 60px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #777;
+}
+
+.hiring {
+    padding: 8px 16px;
+    border-radius: 120px;
+    background: #65E4A3;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A2640;
+}
